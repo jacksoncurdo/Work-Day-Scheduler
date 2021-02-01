@@ -5,3 +5,4 @@ var currentHour = moment().format("HH");
 
 function insertCurrentDay() {
     $("#moment").text(currentDay);
+};
