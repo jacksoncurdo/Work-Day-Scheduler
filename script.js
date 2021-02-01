@@ -21,7 +21,6 @@ function textTen(){
 	localStorage.getItem("data", dataToSaveTen);
 	console.log(dataToSaveTen);
 }
-
 function textEleven(){
 	var dataToSaveEleven = document.getElementById("inputEleven").value;
 	localStorage.setItem("data", dataToSaveEleven);
@@ -34,7 +33,6 @@ function textTwelve(){
 	localStorage.getItem("data", dataToSaveTwelve);
 	console.log(dataToSaveTwelve);
 }
-
 function textOne(){
 	var dataToSaveOne = document.getElementById("inputOne").value;
 	localStorage.setItem("data", dataToSaveOne);
@@ -47,3 +45,16 @@ function textTwo(){
 	localStorage.getItem("data", dataToSaveTwo);
 	console.log(dataToSaveTwo);
 }
+function textThree(){
+	var dataToSaveThree = document.getElementById("inputThree").value;
+	localStorage.setItem("data", dataToSaveThree);
+	localStorage.getItem("data", dataToSaveThree);
+	console.log(dataToSaveThree);
+}
+function textFour(){
+	var dataToSaveFour = document.getElementById("inputFour").value;
+	localStorage.setItem("data", dataToSaveFour);
+	localStorage.getItem("data", dataToSaveFour);
+	console.log(dataToSaveFour);
+}
+
