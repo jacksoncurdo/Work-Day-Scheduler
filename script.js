@@ -83,3 +83,12 @@ else if (currentHour == 9) {
 else if (currentHour < 9) {
 	document.getElementById("nineAM").style.borderColor = "green";
 }
+if (currentHour > 10 ) {
+	document.getElementById("tenAM").style.borderColor = "grey";
+}
+else if (currentHour == 10) {
+	document.getElementById("tenAM").style.borderColor = "red";
+}
+else if (currentHour < 10) {
+	document.getElementById("tenAM").style.borderColor = "green";
+}
