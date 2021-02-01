@@ -73,3 +73,13 @@ textTwo();
 textThree();
 textFour();
 textFive();
+
+if (currentHour > 9 ) {
+	document.getElementById("nineAM").style.borderColor = "grey";
+}
+else if (currentHour == 9) {
+	document.getElementById("nineAM").style.borderColor = "red";
+}
+else if (currentHour < 9) {
+	document.getElementById("nineAM").style.borderColor = "green";
+}
