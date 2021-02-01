@@ -21,3 +21,16 @@ function textTen(){
 	localStorage.getItem("data", dataToSaveTen);
 	console.log(dataToSaveTen);
 }
+
+function textEleven(){
+	var dataToSaveEleven = document.getElementById("inputEleven").value;
+	localStorage.setItem("data", dataToSaveEleven);
+	localStorage.getItem("data", dataToSaveEleven);
+	console.log(dataToSaveEleven);
+}
+function textTwelve(){
+	var dataToSaveTwelve = document.getElementById("inputTwelve").value;
+	localStorage.setItem("data", dataToSaveTwelve);
+	localStorage.getItem("data", dataToSaveTwelve);
+	console.log(dataToSaveTwelve);
+}
