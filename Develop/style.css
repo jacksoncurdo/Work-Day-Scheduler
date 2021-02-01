@@ -69,3 +69,7 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+#nineAM, #tenAM, #elevenAM, #twelvePM, #onePM, #twoPM, #threePM, #fourPM, #fivePM {
+  background-color: teal;
+  border: teal 12px solid;
+}
