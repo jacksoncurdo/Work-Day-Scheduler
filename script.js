@@ -57,4 +57,10 @@ function textFour(){
 	localStorage.getItem("data", dataToSaveFour);
 	console.log(dataToSaveFour);
 }
+function textFive(){
+	var dataToSaveFive = document.getElementById("inputFive").value;
+	localStorage.setItem("data", dataToSaveFive);
+	localStorage.getItem("data", dataToSaveFive);
+	console.log(dataToSaveFive);
+}
 
