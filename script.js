@@ -34,3 +34,16 @@ function textTwelve(){
 	localStorage.getItem("data", dataToSaveTwelve);
 	console.log(dataToSaveTwelve);
 }
+
+function textOne(){
+	var dataToSaveOne = document.getElementById("inputOne").value;
+	localStorage.setItem("data", dataToSaveOne);
+	localStorage.getItem("data", dataToSaveOne);
+	console.log(dataToSaveOne);
+}
+function textTwo(){
+	var dataToSaveTwo = document.getElementById("inputTwo").value;
+	localStorage.setItem("data", dataToSaveTwo);
+	localStorage.getItem("data", dataToSaveTwo);
+	console.log(dataToSaveTwo);
+}
