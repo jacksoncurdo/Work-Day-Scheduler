@@ -64,3 +64,12 @@ function textFive(){
 	console.log(dataToSaveFive);
 }
 
+textNine();
+textTen();
+textEleven();
+textTwelve();
+textOne();
+textTwo();
+textThree();
+textFour();
+textFive();
