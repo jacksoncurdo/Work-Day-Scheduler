@@ -92,3 +92,66 @@ else if (currentHour == 10) {
 else if (currentHour < 10) {
 	document.getElementById("tenAM").style.borderColor = "green";
 }
+if (currentHour > 11 ) {
+	document.getElementById("tenAM").style.borderColor = "grey";
+}
+else if (currentHour == 11) {
+	document.getElementById("tenAM").style.borderColor = "red";
+}
+else if (currentHour < 11) {
+	document.getElementById("tenAM").style.borderColor = "green";
+}
+if (currentHour > 12 ) {
+	document.getElementById("twelvePM").style.borderColor = "grey";
+}
+else if (currentHour == 12) {
+	document.getElementById("twelvePM").style.borderColor = "red";
+}
+else if (currentHour < 12) {
+	document.getElementById("twelvePM").style.borderColor = "green";
+}
+if (currentHour > 13 ) {
+	document.getElementById("onePM").style.borderColor = "grey";
+}
+else if (currentHour == 13) {
+	document.getElementById("onePM").style.borderColor = "red";
+}
+else if (currentHour < 13) {
+	document.getElementById("onePM").style.borderColor = "green";
+}
+if (currentHour > 14 ) {
+	document.getElementById("twoPM").style.borderColor = "grey";
+}
+else if (currentHour == 14) {
+	document.getElementById("twoPM").style.borderColor = "red";
+}
+else if (currentHour < 14) {
+	document.getElementById("twoPM").style.borderColor = "green";
+}
+if (currentHour > 15 ) {
+	document.getElementById("threePM").style.borderColor = "grey";
+}
+else if (currentHour == 15) {
+	document.getElementById("threePM").style.borderColor = "red";
+}
+else if (currentHour < 15) {
+	document.getElementById("threePM").style.borderColor = "green";
+}
+if (currentHour > 16 ) {
+	document.getElementById("fourPM").style.borderColor = "grey";
+}
+else if (currentHour == 16) {
+	document.getElementById("fourPM").style.borderColor = "red";
+}
+else if (currentHour < 16) {
+	document.getElementById("fourPM").style.borderColor = "green";
+}
+if (currentHour > 17 ) {
+	document.getElementById("fivePM").style.borderColor = "grey";
+}
+else if (currentHour == 17) {
+	document.getElementById("fivePM").style.borderColor = "red";
+}
+else if (currentHour < 17) {
+	document.getElementById("fivePM").style.borderColor = "green";
+}
